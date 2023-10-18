@@ -23,47 +23,63 @@
 <body>
 
   <!-- Navbar -->
-  <nav class="navbar navbar-expand-lg bg-light sticky-top">
+  <nav class="navbar navbar-expand-lg bg-btn1 sticky-top">
     <div class="container-fluid">
-      <a class="navbar-brand" href="#">
-        <img src="img/Logo2.png" width="150" height="25">
+      <a class="navbar-brand text-white fs-3 fw-bold" href="#">
+        <img src="img/LogoSW2.png" width="60" height="40"> StreetSavers
       </a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="collapse navbar-collapse color1" id="navbarSupportedContent">
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
           <li class="nav-item mx-3">
-            <a class="nav-link fw-bolder active" aria-current="page" href="index.html">Home</a>
+            <a class="nav-link fs-6 text-white active" aria-current="page" href="index.html">Home</a>
           </li>
           <li class="nav-item mx-3">
-            <a class="nav-link fw-bolder" aria-current="page" href="laporan.html">Laporan</a>
+            <a class="nav-link fs-6 text-white" aria-current="page" href="laporan.html">Laporan</a>
           </li>
           <li class="nav-item mx-3">
-            <a class="nav-link fw-bolder" aria-current="page" href="data.html">Data</a>
+            <a class="nav-link fs-6 text-white" aria-current="page" href="data.html">Data</a>
           </li>
           <li class="nav-item mx-3">
-            <a class="nav-link fw-bolder" aria-current="page" href="sumberdaya.html">Sumber Daya</a>
+            <a class="nav-link fs-6 text-white" aria-current="page" href="sumberdaya.html">Sumber Daya</a>
           </li>
           <form class="d-flex" role="search">
-            <a href="login.html" class="btn bg-btn1 text-white fw-bolder mx-3" type="submit">Login</a>
-            <a href="signup.html" class="btn btn-outline-primary color1 fw-bolder" type="submit">SignUp</a>
+            <a href="login.html" class="btn btn-light color1 fs-6 mx-3" type="submit">Login</a>
+            <a href="signup.html" class="btn btn-light color1 fs-6" type="submit">SignUp</a>
           </form>
+          <hr>
       </div>
     </div>
   </nav>
+  <!-- Navbar End-->
 
   <!-- Banner -->
-  <div class="container-fluid banner">
-    <div class="container banner-content">
-      <div class="text-center">
-        <p class="fs-1 fw-bolder">
-          STREET SAVERS <br>
-          Where Caring <br>
-          Meets Action
-        </p>
-        <a href="laporan.html" class="btn bg-btn1 text-white fw-bolder mt-3 btn-lg" type="submit">Laporkan</a>
+  <div class="container-fluid bg-btn1 py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-8 col-md-6 col-lg-6 col-sm-8">
+          <br><br>
+          <div class="img-area" style="align-items: center;">
+            <img src="img/LogoLogin1.png" class="img-fluid" alt="">
+          </div>
+        </div>
+        <div class="col-8 col-md-6 col-lg-6 col-sm-4">
+          <br>
+          <div class="container banner-content">
+            <div class="text-center">
+              <p class="fs-1 fw-bolder">
+                STREET SAVERS <br>
+                Where Caring <br>
+                Meets Action
+              </p>
+              <a href="laporan.html" class="btn btn-light color1 fw-bolder fs-3 mt-3 btn-lg"
+                type="submit">Laporkan</a>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </div>
@@ -74,14 +90,14 @@
   <section class="lapdar section-padding" id="lapdar">
     <div class="container-fluid py-5 mt-5 mb-5">
       <div class="row">
-        <div class="col-md-12">
-          <div class="section-header text-center mb-5 px-5">
+        <div class="col 12">
+          <div class="section-header mb-3 px-5">
             <h1 class="color1 fw-bolder align-items-left">Laporan Darurat</h1>
           </div>
         </div>
       </div>
-      <div class="row justify-content-center">
-        <div class="col-12 col-md-6 col-lg-3 mb-3 mx-3">
+      <div class="row justify-content-center px-5 mt-2">
+        <div class="col-md-4 col-lg-3 col-sm-6 mb-3">
           <div class="card text-center bg-white pb-2" data-aos="zoom-in" data-aos-duration="700">
             <div class="card-body">
               <div class="img-area mb-4">
@@ -94,7 +110,7 @@
             </div>
           </div>
         </div>
-        <div class="col-12 col-md-6 col-lg-3 mb-3 mx-3">
+        <div class="col-md-4 col-lg-3 col-sm-6 mb-3">
           <div class="card text-center bg-white pb-2" data-aos="zoom-in" data-aos-duration="700">
             <div class="card-body">
               <div class="img-area mb-4">
@@ -107,7 +123,7 @@
             </div>
           </div>
         </div>
-        <div class="col-12 col-md-6 col-lg-3 mb-3 mx-3">
+        <div class="col-md-4 col-lg-3 col-sm-6 mb-3">
           <div class="card text-center bg-white pb-2" data-aos="zoom-in" data-aos-duration="700">
             <div class="card-body">
               <div class="img-area mb-4">
@@ -120,6 +136,19 @@
             </div>
           </div>
         </div>
+        <div class="col-md-4 col-lg-3 col-sm-6 mb-3">
+          <div class="card text-center bg-white pb-2" data-aos="zoom-in" data-aos-duration="700">
+            <div class="card-body">
+              <div class="img-area mb-4">
+                <img src="img/lapdar1.png" class="img-fluid" alt="">
+              </div>
+              <h4 class="card-title">Mbah Garto</h4>
+              <p class="card-text">Bantu Mbah Garto untuk segera membayar kontrakan bulan ini agar tidak diusir dan
+                menjadi orang jalanan.</p>
+              <a href="#" class="btn bg-btn1 text-white">Selengkapnya</a>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </section>
@@ -127,7 +156,7 @@
 
   <!-- Blackquote -->
   <section class="blackquote section-padding" id="blackquote">
-    <div class="container-fluid py-5 mt-5 mb-5 bg1 text-white">
+    <div class="container-fluid py-5 mt-5 mb-5 bg-btn1 text-white">
       <div class="container">
         <div class="row px-5">
           <div class="col-12 col-md-6 col-lg-6 mb-3">
@@ -159,9 +188,10 @@
       <div class="container">
         <div class="row">
           <div class="col-md-6 col-lg-6 mb-3">
-            <div class="container aboutus-content bg1">
+            <div class="container aboutus-content bg-btn1">
               <div class="img-area text-center">
-                <img src="img/LogoS5.png" class="img-fluid" alt="">
+                <br><br><br>
+                <img src="img/LogoS4.png" class="img-fluid" alt="">
                 <p class="fs-1 fw-bolder text-center">
                   STREET SAVERS
                 </p>
@@ -180,7 +210,7 @@
                   dapat membantu
                   para relawan atau badan amal lokal untuk memberikan bantuan yang diperlukan kepada
                   mereka.</p>
-                  <a href="aboutus.html" class="btn bg-btn1 text-white" style="float: right;">Selengkapnya</a>
+                <a href="aboutus.html" class="btn bg-btn1 text-white" style="float: right;">Selengkapnya</a>
               </div>
             </div>
           </div>
@@ -239,47 +269,47 @@
   <!-- Iklan section Ends -->
 
   <!-- Footer -->
-  <footer style="background-color: #A1D9F4">
+  <footer style="background-color: #059BE5">
     <div class="container p-4 mt-5">
       <div class="row">
         <div class="col-lg-6 col-md-12 mb-2">
-          <h5 class="mb-3 text-black fw-bold" style="letter-spacing: 2px;">Street Savers</h5>
-          <p>
+          <h5 class="mb-3 text-white fw-bold" style="letter-spacing: 2px;">Street Savers</h5>
+          <p class="text-white">
             Website Street Savers memungkinkan pengguna <br>untuk melaporkan orang yang membutuhkan,<br>
             terlantar, dan hidup kekurangan di jalan.
           </p>
         </div>
         <div class="col-lg-3 col-md-6 mb-2">
-          <h5 class="mb-3 text-black fw-bold" style="letter-spacing: 2px;">Links</h5>
+          <h5 class="mb-3 text-white fw-bold" style="letter-spacing: 2px;">Links</h5>
           <ul class="list-unstyled mb-0">
-            <li class="mb-1 text-black">
-              <a href="aboutus.html">About Us</a>
+            <li class="mb-1">
+              <a href="aboutus.html" class="text-white">About Us</a>
             </li>
             <li class="mb-1">
-              <a href="laporan.html">Laporan</a>
+              <a href="laporan.html" class="text-white">Laporan</a>
             </li>
             <li class="mb-1">
-              <a href="data.html">Data</a>
+              <a href="data.html" class="text-white">Data</a>
             </li>
             <li>
-              <a href="sumberdaya.html">Sumber Daya</a>
+              <a href="sumberdaya.html" class="text-white">Sumber Daya</a>
             </li>
           </ul>
         </div>
         <div class="col-lg-3 col-md-6 mb-2">
-          <h5 class="mb-3 text-black fw-bold" style="letter-spacing: 2px;">Follow Us</h5>
+          <h5 class="mb-3 text-white fw-bold" style="letter-spacing: 2px;">Follow Us</h5>
           <div class="row">
             <p class="socials fs-3">
-              <a href=""><i class="bi bi-twitter mx-1 text-black"></i></a>
-              <a href=""><i class="bi bi-instagram mx-1 text-black"></i></a>
-              <a href=""><i class="bi bi-youtube mx-1 text-black"></i></a>
-              <a href=""><i class="bi bi-facebook mx-1 text-black"></i></a>
+              <a href=""><i class="bi bi-twitter mx-1 text-white"></i></a>
+              <a href=""><i class="bi bi-instagram mx-1 text-white"></i></a>
+              <a href=""><i class="bi bi-youtube mx-1 text-white"></i></a>
+              <a href=""><i class="bi bi-facebook mx-1 text-white"></i></a>
             </p>
           </div>
         </div>
       </div>
     </div>
-    <div class="text-center p-3" style="background-color: #A1D9F4">
+    <div class="text-center text-white p-3" style="background-color: #059BE5">
       <hr>
       © 2023 Copyright:StreetSavers
     </div>

@@ -6,7 +6,7 @@
     color: #059BE5;
 }
 
-.btn-outline-primary{
+.btn-outline-white{
     border-color: #059BE5;
 }
 
@@ -14,9 +14,14 @@
     background-color: #A1D9F4;
 }
 
+.color2{
+    color: #A1D9F4;
+}
+
 .banner{
-    height: 90vh;
-    background: url("../../img/car1.jpg");
+    height: 100%;
+    /*background: url("../../img/car1.jpg");*/
+    background-color: #059BE5;
     background-size: cover;
     background-position: left top;
 }
@@ -41,4 +46,8 @@
     color: white;
     align-items: center;
     justify-content: baseline;
+}
+
+.ms-n5 {
+    margin-left: -40px;
 }
