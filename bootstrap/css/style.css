@@ -30,7 +30,7 @@
     height: 100%;
     color: white;
     display: flex;
-    justify-content: end;
+    justify-content: center;
     align-items: center;
 }
 
@@ -45,7 +45,7 @@
     height: 100%;
     color: white;
     align-items: center;
-    justify-content: baseline;
+    justify-content: center;
 }
 
 .ms-n5 {

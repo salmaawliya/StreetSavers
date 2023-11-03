@@ -4,7 +4,8 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>INDEX</title>
+    <link rel="icon" href="img/logoonly1.png">
+    <title>Street Savers</title>
 
     <!-- All CSS -->
     <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -39,7 +40,10 @@
                         <a class="nav-link fs-6 text-white active" aria-current="page" href="index.html">Home</a>
                     </li>
                     <li class="nav-item mx-3">
-                        <a class="nav-link fs-6 text-white" aria-current="page" href="laporan.html">Laporan</a>
+                        <a class="nav-link fs-6 text-white" aria-current="page" href="laporkan.html">Laporkan</a>
+                    </li>
+                    <li class="nav-item mx-3">
+                        <a class="nav-link fs-6 text-white fw-bold" aria-current="page" href="aboutus.html">About Us</a>
                     </li>
                     <li class="nav-item mx-3">
                         <a class="nav-link fs-6 text-white" aria-current="page" href="data.html">Data</a>
@@ -49,8 +53,8 @@
                     </li>
                     <form class="d-flex" role="search">
                         <a href="login.html" class="btn btn-light color1 fs-6 mx-3" type="submit">Login</a>
-                        <a href="signup.html" class="btn btn-light color1 fs-6" type="submit">SignUp</a>
                     </form>
+                    <hr>
             </div>
         </div>
     </nav>
@@ -85,7 +89,7 @@
 
     <!-- About Us -->
     <section class="aboutus section-padding" id="aboutus">
-        <div class="container-fluid py-5 mt-5 mb-5 bg-white">
+        <div class="container-fluid py-5 mt-5 mb-5">
             <div class="container">
                 <div class="row">
                     <div class="col-md-6 col-lg-6 mb-3">
@@ -93,7 +97,7 @@
                             <div class="img-area text-center">
                                 <br><br>
                                 <img src="img/LogoS4.png" class="img-fluid" alt="">
-                                <p class="fs-1 fw-bolder text-center">
+                                <p class="fs-2 fw-bolder text-center">
                                     STREET SAVERS
                                 </p>
                             </div>
@@ -102,8 +106,8 @@
                     <div class="col-md-6 col-lg-6 mb-3">
                         <div class="container aboutus-content">
                             <div class="card-body">
-                                <p class="fs-1 fw-bolder text-center color1 mb-4 mt-2">Tentang Kami</p>
-                                <p class="fs-4 text-black text-center">Web "Street Savers" memungkinkan pengguna untuk
+                                <p class="fs-2 fw-bolder text-center color1 mb-4 mt-2">Tentang Kami</p>
+                                <p class="fs-5 text-black text-center">Web "Street Savers" memungkinkan pengguna untuk
                                     melaporkan orang
                                     yang membutuhkan, terlantar, dan
                                     hidup kekurangan di jalan. Dengan memanfaatkan teknologi informasi dan konektivitas,
@@ -116,17 +120,10 @@
                     </div>
                 </div>
             </div>
-        </div>
-        </div>
-        </div>
-    </section>
-    <!-- About Us section Ends -->
 
-    <!-- Tujuan -->
-    <section class="tujuan section-padding" id="tujuan">
-        <div class="container-fluid py-3 mt-5 mb-2 bg-white">
-            <div class="container">
-                <h1 class="fs-1 color1 fw-bolder align-items-left">Tujuan</h1>
+            <!-- Tujuan -->
+            <div class="container mt-5">
+                <h1 class="fs-2 color1 fw-bolder align-items-left">Tujuan</h1>
                 <p class="fs-5">Web ini memiliki tujuan utama untuk menyatukan masyarakat yang ingin membantu dengan
                     mereka yang hidup dalam kekurangan
                     di jalanan dan mendukung berbagai pencapaian SDGs yang relevan, termasuk:
@@ -143,17 +140,10 @@
                 </ul>
                 </p>
             </div>
-        </div>
-        </div>
-        </div>
-    </section>
-    <!-- Tujuan section Ends -->
 
-    <!-- Tujuan -->
-    <section class="manfaat section-padding" id="manfaat">
-        <div class="container-fluid py-5 mt-3 mb-5 bg-white">
-            <div class="container">
-                <h1 class="fs-1 color1 fw-bolder align-items-left">Manfaat</h1>
+            <!-- Manfaat -->
+            <div class="container mt-5">
+                <h1 class="fs-2 color1 fw-bolder align-items-left">Manfaat</h1>
                 <p class="fs-5">Manfaat yang diharapkan dari adanya web ini adalah:
                 <ul class="fs-5 mb-1">
                     <li>Dukungan terhadap SDGs.</li>
@@ -166,11 +156,91 @@
                 </ul>
                 </p>
             </div>
-        </div>
-        </div>
+
+            <!-- Pertanyaan -->
+            <div class="container mt-5">
+                <h1 class="fs-2 color1 fw-bolder align-items-left">Ada Pertanyaan?</h1>
+                <div class="card-footer py-3 border-0" style="background-color: #f8f9fa;">
+                    <div class="d-flex flex-start w-100">
+                        <img class="rounded-circle shadow-1-strong me-3" src="img/profile.jpg" alt="avatar" width="40"
+                            height="40" />
+                        <div class="form-outline w-100">
+                            <textarea class="form-control" id="textAreaExample" rows="4" placeholder="Message"
+                                style="background: #fff;"></textarea>
+                        </div>
+                    </div>
+                    <div class="float-end mt-2 pt-1">
+                        <button type="button" class="btn bg-btn1 text-white fw-bold btn-sm mx-2" data-toggle="modal"
+                            data-target="#modalTanya">Kirim</button>
+                        <!-- Tanya Modal -->
+                        <div class="modal fade" id="modalTanya" tabindex="-1" role="dialog"
+                            aria-labelledby="modalTanyaLabel" aria-hidden="true">
+                            <div class="modal-dialog" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="modalTanyaLabel">Harus Login</h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>
+                                    <div class="modal-body">
+                                        Anda harus login dahulu untuk dapat memberikan pertanyaan.
+                                    </div>
+                                    <div class="modal-footer">
+                                        <a class="btn bg-btn1 text-white btn-sm" href="login.html"
+                                            style="float:right">Login</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <button type="button" class="btn btn-outline-white color1 btn-sm">Cancel</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Review -->
+            <div class="container mt-5">
+                <h1 class="fs-2 color1 fw-bolder align-items-left">Beri Pendapat Anda Tentang Kami</h1>
+                <div class="card-footer py-3 border-0" style="background-color: #f8f9fa;">
+                    <div class="d-flex flex-start w-100">
+                        <img class="rounded-circle shadow-1-strong me-3" src="img/profile.jpg" alt="avatar" width="40"
+                            height="40" />
+                        <div class="form-outline w-100">
+                            <textarea class="form-control" id="textAreaExample" rows="4" placeholder="Message"
+                                style="background: #fff;"></textarea>
+                        </div>
+                    </div>
+                    <div class="float-end mt-2 pt-1">
+                        <button type="button" class="btn bg-btn1 text-white fw-bold btn-sm mx-2" data-toggle="modal"
+                            data-target="#modalReview">Kirim</button>
+                        <!-- Review Modal -->
+                        <div class="modal fade" id="modalReview" tabindex="-1" role="dialog"
+                            aria-labelledby="modalReviewLabel" aria-hidden="true">
+                            <div class="modal-dialog" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="modalReviewLabel">Harus Login</h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>
+                                    <div class="modal-body">
+                                        Anda harus login dahulu untuk dapat memberikan review.
+                                    </div>
+                                    <div class="modal-footer">
+                                        <a class="btn bg-btn1 text-white btn-sm" href="login.html"
+                                            style="float:right">Login</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <button type="button" class="btn btn-outline-white color1 btn-sm">Cancel</button>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
-    <!-- Manfaat section Ends -->
+    <!-- About Us section Ends -->
 
     <!-- Footer -->
     <footer style="background-color: #059BE5">
@@ -223,6 +293,10 @@
 
     <!-- All JS -->
     <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
 
 </body>
 

@@ -4,7 +4,8 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>INDEX</title>
+    <link rel="icon" href="img/logoonly1.png">
+    <title>Street Savers</title>
 
     <!-- All CSS -->
     <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -36,13 +37,16 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                     <li class="nav-item mx-3">
-                        <a class="nav-link fs-6 text-white" aria-current="page" href="index2.html">Home</a>
+                        <a class="nav-link fs-6 text-white active" aria-current="page" href="index2.html">Home</a>
                     </li>
                     <li class="nav-item mx-3">
                         <a class="nav-link fs-6 text-white" aria-current="page" href="laporkan2.html">Laporkan</a>
                     </li>
                     <li class="nav-item mx-3">
-                        <a class="nav-link fs-6 text-white fw-bold active" aria-current="page" href="data2.html">Data</a>
+                        <a class="nav-link fs-6 text-white" aria-current="page" href="aboutus2.html">About Us</a>
+                    </li>
+                    <li class="nav-item mx-3">
+                        <a class="nav-link fs-6 text-white fw-bold" aria-current="page" href="data2.html">Data</a>
                     </li>
                     <li class="nav-item mx-3">
                         <a class="nav-link fs-6 text-white" aria-current="page" href="sumberdaya2.html">Sumber Daya</a>
@@ -53,15 +57,16 @@
                             <i class="bi bi-person"></i> Anto Sulis
                         </a>
                         <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="profile.html"><i class="bi bi-pencil-square"></i> Profile</a></li>
-                            </li>
-                            <li>
-                                <hr class="dropdown-divider">
-                            </li>
-                            <li><a class="dropdown-item" href="index.html"><i class="bi bi-box-arrow-left"></i>
-                                    Logout</a></li>
-                        </ul>
+                            <li><a class="dropdown-item" href="profile.html"><i class="bi bi-pencil-square"></i>
+                                    Profile</a></li>
                     </li>
+                    <li>
+                        <hr class="dropdown-divider">
+                    </li>
+                    <li><a class="dropdown-item" href="index.html"><i class="bi bi-box-arrow-left"></i>
+                            Logout</a></li>
+                </ul>
+                </li>
             </div>
         </div>
     </nav>
@@ -75,61 +80,141 @@
                 <div class="card">
                     <div class="card-body">
                         <div class="section-header mb-3">
-                            <h1 class="color1 fw-bolder align-items-left mb-5">Laporan</h1>
+                            <h1 class="color1 fw-bolder text-center mb-5">Hasil Laporan</h1>
                         </div>
                         <form class="px-3 mt-3">
-                            <div class="mb-4">
-                                <label for="exampleInputNama" class="form-label color: #555;">Nama</label>
-                                <input type="nama" class="form-control" id="exampleInputNama"
-                                    aria-describedby="namaHelp" placeholder="Mbah Garto"
-                                    style="background-color: #e5e5e5; color: #555; height: 50px;">
+                            <div class="row mb-4" style="">
+                                <div class="col-md-2" style="opacity: 0.8; font-weight: bold;">
+                                    Nama
+                                </div>
+                                <div class="col-md-10">
+                                    Mbah Garto
+                                </div>
                             </div>
-                            <div class="mb-4">
-                                <label for="exampleInputUmur" class="form-label color: #555;">Umur</label>
-                                <input type="Umur" class="form-control" id="exampleInputUmur"
-                                    aria-describedby="UmurHelp" placeholder="70 tahun"
-                                    style="background-color: #e5e5e5; color: #555; height: 50px;">
+                            <div class="row mb-4" style="">
+                                <div class="col-md-2" style="opacity: 0.8; font-weight: bold;">
+                                    Umur
+                                </div>
+                                <div class="col-md-10">
+                                    70 tahun
+                                </div>
                             </div>
-                            <div class="mb-4">
-                                <label for="exampleInputPekerjaan" class="form-label color: #555;">Pekerjaan</label>
-                                <input type="Pekerjaan" class="form-control" id="exampleInputPekerjaan"
-                                    aria-describedby="PekerjaanHelp" placeholder="Penjual Buku Keliling"
-                                    style="background-color: #e5e5e5; color: #555; height: 50px;">
+                            <div class="row mb-4" style="">
+                                <div class="col-md-2" style="opacity: 0.8; font-weight: bold;">
+                                    Pekerjaan
+                                </div>
+                                <div class="col-md-10">
+                                    Penjual Buku Keliling
+                                </div>
                             </div>
-                            <div class="mb-4">
-                                <label for="exampleInputLokasi" class="form-label color: #555;">Lokasi Bertemu</label>
-                                <input type="Lokasi" class="form-control" id="exampleInputLokasi"
-                                    aria-describedby="LokasiHelp" placeholder="Pasar Pakem"
-                                    style="background-color: #e5e5e5; color: #555; height: 50px;">
-                                <img src="img/loc1.jpg" href="#" class="mt-2" alt="">
+                            <div class="row mb-4" style="">
+                                <div class="col-md-2" style="opacity: 0.8; font-weight: bold;">
+                                    Lokasi Bertemu
+                                </div>
+                                <div class="col-md-10">
+                                    Pasar Pakem Jogja <br>
+                                    <iframe style="height: 157px; width: 492px;"
+                                        src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d31624.56023294567!2d110.3921152!3d-7.782399999999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sid!2sid!4v1697476431516!5m2!1sid!2sid"
+                                        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                                </div>
                             </div>
-                            <div class="mb-4">
-                                <label for="exampleInputMasalah" class="form-label color: #555;">Masalah yang
-                                    Terjadi</label>
-                                <textarea class="textarea form-control" name="message"
-                                    style="background-color: #e5e5e5; color: #555; height: 300px;"
-                                    placeholder="Bantu Mbah Garto untuk segera membayar kontrakan bulan ini agar tidak diusir dan menjadi orang jalanan. Mbah Garto hidup sebatang kara. Istrinya sudah meninggal dan dia tidak memiliki anak. Di usia yang tua ini dia harus berjualan buku keliling dan mirisnya tidak ada yang membeli dagangannya sehingga dia harus pulang dengan tangan kosong. Bulan ini dia harus segera membayar uang sewa kontrakan kalau tidak dia akan diusir dan menjadi orang jalanan. Ayo bantu Mbah Garto."></textarea>
+                            <div class="row mb-4" style="">
+                                <div class="col-md-2" style="opacity: 0.8; font-weight: bold;">
+                                    Masalah yang Terjadi
+                                </div>
+                                <div class="col-md-10">
+                                    Bantu Mbah Garto untuk segera membayar kontrakan bulan ini agar tidak diusir dan
+                                    menjadi orang jalanan. Mbah Garto hidup sebatang kara. Istrinya sudah meninggal dan
+                                    dia tidak memiliki anak. Di usia yang tua ini dia harus berjualan buku keliling dan
+                                    mirisnya tidak ada yang membeli dagangannya sehingga dia harus pulang dengan tangan
+                                    kosong. Bulan ini dia harus segera membayar uang sewa kontrakan kalau tidak dia akan
+                                    diusir dan menjadi orang jalanan. Ayo bantu Mbah Garto.
+                                </div>
                             </div>
-                            <div class="mb-4">
-                                <label for="exampleInputKontak" class="form-label color: #555;">Kontak Langsung</label>
-                                <textarea class="textarea form-control" name="message"
-                                    style="background-color: #e5e5e5; color: #555; height: 150px;"
-                                    placeholder="Mbahnya ngak punya hp tapi mbahnya biasanya mangkal di pasar pakem setiap jam 8 - 1 terus habis itu keliling di sekitar situ. Rumah mbahnya di Gendol, Tempel, Sleman."></textarea>
+                            <div class="row mb-4" style="">
+                                <div class="col-md-2" style="opacity: 0.8; font-weight: bold;">
+                                    Kontak Langsung
+                                </div>
+                                <div class="col-md-10">
+                                    Mbahnya ngak punya hp tapi mbahnya biasanya mangkal di pasar pakem setiap jam 8 -
+                                    1 terus habis itu keliling di sekitar situ. Rumah mbahnya di Gendol, Tempel, Sleman.
+                                </div>
                             </div>
-                            <div class="mb-4">
-                                <label for="exampleInputFoto" class="form-label color: #555;">Foto</label><br>
-                                <img src="img/lapdar1.png" alt="">
+                            <div class="row mb-4" style="">
+                                <div class="col-md-2" style="opacity: 0.8; font-weight: bold;">
+                                    Foto
+                                </div>
+                                <div class="col-md-10">
+                                    <img src="img/lapdar1.png" alt="">
+                                </div>
                             </div>
-                            <div class="mb-4">
-                                <label for="exampleInputPelapor" class="form-label color: #555;">Pelapor</label>
-                                <input type="Pelapor" class="form-control" id="exampleInputPelapor"
-                                    aria-describedby="PelaporHelp" placeholder="Saluwa"
-                                    style="background-color: #e5e5e5; color: #555; height: 50px;">
+                            <div class="row mb-4" style="">
+                                <div class="col-md-2" style="opacity: 0.8; font-weight: bold;">
+                                    Pelapor
+                                </div>
+                                <div class="col-md-10">
+                                    Anto Sulis
+                                </div>
+                            </div>
+                            <div class="row mb-4" style="">
+                                <div class="col-md-2" style="opacity: 0.8; font-weight: bold;">
+                                    Sumber Daya
+                                </div>
+                                <div class="col-md-10">
+                                    <a href="amalah.html" alt="" style="text-decoration: none;"
+                                        class="text-black">Yayasan Amalah</a>
+                                </div>
+                            </div>
+                            <div class="row mb-5" style="">
+                                <div class="col-md-2" style="opacity: 0.8; font-weight: bold;">
+                                    Total Donasi
+                                </div>
+                                <div class="col-md-10">
+                                    <div class="progress-text">
+                                        <div class="row">
+                                            <div class="col-6" style="text-align: left;">Rp10.816.818</div>
+                                            <div class="col-6 text-end">30 hari</div>
+                                        </div>
+                                    </div>
+                                    <div class="custom-progress progress progress-medium" style="height: 4px;">
+                                        <div class="animated custom-bar progress-bar slideInLeft bg-btn1"
+                                            style="width:10%" aria-valuemax="100" aria-valuemin="0" aria-valuenow="10"
+                                            role="progressbar"></div>
+                                    </div>
+                                    <div class="row mt-2">
+                                        <div class="col-6" style="text-align: left;">Terkumpul Rp10.816.818 dari
+                                            Rp100.000.000</div>
+                                        <div class="col-6 text-end"></div>
+                                    </div>
+                                </div>
                             </div>
                             <div class="mb-4 form-check">
-                                <a class="btn bg-btn1 text-white fw-bold btn-lg" href="donasi2.html"
-                                    style="float:right">Donasi
-                                    Sekarang</a>
+                                <a class="btn bg-btn1 text-white fw-bold btn-lg mx-3" data-toggle="modal"
+                                    data-target="#modalLogin" style="float:right">Donasi Sekarang</a>
+                                <!-- Login Modal -->
+                                <div class="modal fade" id="modalLogin" tabindex="-1" role="dialog"
+                                    aria-labelledby="modalLoginLabel" aria-hidden="true">
+                                    <div class="modal-dialog" role="document">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h5 class="modal-title" id="modalLoginLabel">Harus Login</h5>
+                                                <button type="button" class="close" data-dismiss="modal"
+                                                    aria-label="Close">
+                                                    <span aria-hidden="true">&times;</span>
+                                                </button>
+                                            </div>
+                                            <div class="modal-body">
+                                                Anda harus login dahulu untuk dapat melakukan donasi.
+                                            </div>
+                                            <div class="modal-footer">
+                                                <a class="btn bg-btn1 text-white btn-sm" href="login.html"
+                                                    style="float:right">Login</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <a class="btn bg-btn1 text-white fw-bold btn-lg" href="donasi2.html" style="float:right">Update Donasi</a>
                             </div>
                         </form>
                     </div>
@@ -243,7 +328,7 @@
                     </div>
                     <div class="card-footer py-3 border-0" style="background-color: #f8f9fa;">
                         <div class="d-flex flex-start w-100">
-                            <img class="rounded-circle shadow-1-strong me-3" src="img/ava3.jpg" alt="avatar" width="40"
+                            <img class="rounded-circle shadow-1-strong me-3" src="img/ava2.jpg" alt="avatar" width="40"
                                 height="40" />
                             <div class="form-outline w-100">
                                 <textarea class="form-control" id="textAreaExample" rows="4" placeholder="Message"
@@ -251,8 +336,7 @@
                             </div>
                         </div>
                         <div class="float-end mt-2 pt-1">
-                            <button type="button" class="btn bg-btn1 text-white fw-bold btn-sm mx-2">Post
-                                comment</button>
+                            <button type="button" class="btn bg-btn1 text-white fw-bold btn-sm mx-2">Kirim</button>
                             <button type="button" class="btn btn-outline-white color1 btn-sm">Cancel</button>
                         </div>
                     </div>
@@ -313,6 +397,9 @@
 
     <!-- All JS -->
     <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 
 </body>
 
