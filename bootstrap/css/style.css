@@ -1,8 +1,3 @@
-.navbar-sticky-top.scrolled {
-    background-color: #059BE5 !important;
-    transition: background-color 200ms linear;
-}
-
 .bg-btn1 {
     background-color: #059BE5;
 }
@@ -41,7 +36,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-top: 150px;
+    padding-top: 50px;
 }
 
 .blackquote-content {
