@@ -1,3 +1,8 @@
+.navbar-sticky-top.scrolled {
+    background-color: #059BE5 !important;
+    transition: background-color 200ms linear;
+}
+
 .bg-btn1 {
     background-color: #059BE5;
 }
@@ -23,11 +28,11 @@
 }
 
 .banner {
-    height: 100%;
-    /*background: url("../../img/car1.jpg");*/
-    background-color: #059BE5;
+    height: 95vh;
+    /*background-color: #059BE5;*/
     background-size: cover;
     background-position: left top;
+    background-repeat: no-repeat;
 }
 
 .banner-content {
@@ -36,6 +41,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-top: 150px;
 }
 
 .blackquote-content {
