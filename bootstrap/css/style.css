@@ -23,20 +23,18 @@
 }
 
 .banner {
-    height: 95vh;
-    /*background-color: #059BE5;*/
+    height: 100%;
+    background-color: #059BE5;
     background-size: cover;
     background-position: left top;
-    background-repeat: no-repeat;
 }
 
 .banner-content {
     height: 100%;
     color: white;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    padding-top: 50px;
+    justify-content: end;
+    align-items: top;
 }
 
 .blackquote-content {
