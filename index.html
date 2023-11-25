@@ -24,7 +24,7 @@
 <body>
 
   <!-- Navbar -->
-  <nav class="navbar navbar-expand-lg bg-btn1 sticky-top">
+  <nav class="navbar navbar-expand-lg bg-btn1 shadow sticky-top text-white">
     <div class="container-fluid">
       <a class="navbar-brand text-white fs-3 fw-bold" href="#">
         <img src="img/LogoSW2.png" width="60" height="40"> StreetSavers
@@ -60,25 +60,26 @@
   <!-- Navbar End-->
 
   <!-- Banner -->
-  <div class="container-fluid bg-btn1 py-5">
+  <div class="container-fluid bg-btn1 py-5 banner" style="background: url(img/car1.jpg); background-repeat: no-repeat; background-size: cover;">
     <div class="container">
       <div class="row">
         <div class="col-md-6 col-lg-6 col-sm-8 text center">
           <br><br>
           <div class="img-area">
-            <img src="img/home2.png" class="img-fluid" alt="">
+            <img src="" class="img-fluid" alt="">
           </div>
         </div>
         <div class="col-md-6 col-lg-6 col-sm-4">
           <br>
           <div class="container banner-content">
-            <div class="text-center">
+            <div class="text-white">
               <p class="fs-1 fw-bolder">
                 STREET SAVERS <br>
                 Where Caring <br>
                 Meets Action
               </p>
-              <a class="btn btn-light color1 fw-bolder fs-3 mt-3 btn-lg" data-toggle="modal" data-target="#modalLapor">Laporkan</a>
+              <a class="btn btn-light color1 fw-bolder fs-3 mt-3 btn-lg" data-toggle="modal"
+                data-target="#modalLapor">Laporkan</a>
               <!-- Lapor Modal -->
               <div class="modal fade" id="modalLapor" tabindex="-1" role="dialog" aria-labelledby="modalLaporLabel"
                 aria-hidden="true">
@@ -367,13 +368,13 @@
             <li class="mb-1">
               <a href="data.html" class="text-white" style="text-decoration: none;">Data</a>
             </li>
-            <li class="mb-1">
+            <li class="mb-3">
               <a href="sumberdaya.html" class="text-white" style="text-decoration: none;">Sumber Daya</a>
             </li>
           </ul>
         </div>
         <div class="col-lg-3 col-md-6 mb-2">
-          <h5 class="text-white fw-bold mt-3" style="letter-spacing: 2px;">Follow Us</h5>
+          <h5 class="text-white fw-bold" style="letter-spacing: 2px;">Follow Us</h5>
           <div class="row">
             <p class="socials fs-3">
               <a href=""><i class="bi bi-twitter mx-1 text-white"></i></a>
@@ -397,7 +398,7 @@
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-
+  <script src="bootstrap/js/nav.js"></script>
 </body>
 
 </html>
